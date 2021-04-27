@@ -22,9 +22,9 @@ O processamento da otimização é feito através de algoritmos genéticos usand
 
 É desejável que as ações escolhidas tenham baixa correlação entre si, aumentando assim a diversificação da carteira.
 
-!["Alta correlação"](https://drive.google.com/uc?export=view&id=1maXP14wbQaLNVhal0vbXCXzhlzc_pmT5)
+!["Alta correlação"](corr_bad.png)
 
-!["Baixa correlação"](https://drive.google.com/uc?export=view&id=1fyMIp4IZ3eJ74H-4p7dzbjspmpD-ZAcs)
+!["Baixa correlação"](corr_ok.png)
 
 
 ## Maximizar o retorno total da carteira
@@ -33,15 +33,15 @@ Esta é a função que mede o retorno efetivo da carteira. Diferença entre o va
 
 Diferença percentual entre o primeiro e o último dia do período avaliado.
 
-!["Retorno negativo"](https://drive.google.com/uc?export=view&id=1U7eT8PTN5XrDzyFrsDFtEu8qKR6fRYXv)
+!["Retorno negativo"](ret_bad.png)
 
-!["Retorno positivo"](https://drive.google.com/uc?export=view&id=1ahLdK6zPjQ6j02_tYdZdI-80XpY2ZwtE)
+!["Retorno positivo"](ret_ok.png)
 
 ## Maximizar a quantidade de dias que a carteira possui variação diária positiva
 
 É desejável que a variação diária dentro do período tenha a maior quantidade de dias com sinal positivo, independente do tamanho da variação.
 
-!["Dias Positivo"](https://drive.google.com/uc?export=view&id=11NQ2HLCtmGKPTIDvzJBUGDaLMHiVbcy8)
+!["Dias Positivo"](dias_pos.png)
 
 
 ## Função objetivo final
